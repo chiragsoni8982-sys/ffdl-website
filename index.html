@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>URBNEXA — Building Tomorrow's Ground</title>
+<meta name="description" content="URBNEXA is a construction company engineering structures with precision, strength, and ambition.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NOISE / GRID OVERLAY ===== -->
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="header">
+  <div class="header-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">⛏</span>
+      <span class="logo-text">URBNEXA</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#home" class="nav-link active" data-section="home"><span class="nav-index">N.01</span>Home</a>
+      <a href="#about" class="nav-link" data-section="about"><span class="nav-index">N.02</span>About</a>
+      <a href="#services" class="nav-link" data-section="services"><span class="nav-index">N.03</span>Services</a>
+      <a href="#contact" class="nav-link" data-section="contact"><span class="nav-index">N.04</span>Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== HOME / HERO ===== -->
+  <section class="hero" id="home">
+    <div class="blueprint-canvas" aria-hidden="true">
+      <svg id="blueprint-svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice"></svg>
+    </div>
+
+    <div class="hero-content">
+      <p class="eyebrow"><span class="eyebrow-dot"></span>General Contracting &amp; Engineering</p>
+      <h1 class="hero-title">
+        <span class="line" data-line="1">WE BUILD</span>
+        <span class="line line-accent" data-line="2">GROUND</span>
+        <span class="line" data-line="3">THAT LASTS</span>
+      </h1>
+      <p class="hero-sub">URBNEXA designs and delivers commercial, residential, and infrastructure projects — engineered with precision, raised with ambition.</p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Start a Project<span class="btn-arrow">↗</span></a>
+        <a href="#services" class="btn btn-ghost">View Services</a>
+      </div>
+    </div>
+
+    <div class="hero-stats" id="hero-stats">
+      <div class="stat" data-count="240">
+        <span class="stat-num">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Projects Delivered</span>
+      </div>
+      <div class="stat" data-count="18">
+        <span class="stat-num">0</span><span class="stat-suffix">yrs</span>
+        <span class="stat-label">In Operation</span>
+      </div>
+      <div class="stat" data-count="99">
+        <span class="stat-num">0</span><span class="stat-suffix">%</span>
+        <span class="stat-label">On-Time Handover</span>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span class="scroll-cue-line"></span>
+      <span>Scroll</span>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <p class="eyebrow"><span class="eyebrow-dot"></span>N.02 — About Us</p>
+      <h2 class="section-title">Foundations <span class="text-outline">Forward</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-copy">
+        <p class="about-lead">URBNEXA started on a job site, not in a boardroom. Eighteen years later, that's still where we make our decisions.</p>
+        <p>We're a full-service construction company handling everything from groundwork and structural steel to final finishing — for commercial developments, residential builds, and public infrastructure. Every project runs through the same discipline: tight scheduling, transparent costing, and a crew that shows up.</p>
+        <p>No subcontractor chains we can't see the end of. No surprises buried in change orders. Just a team that treats your site like the only one we have.</p>
+
+        <div class="about-values">
+          <div class="value-item">
+            <span class="value-mark">§01</span>
+            <div>
+              <h3>Structural Integrity</h3>
+              <p>Engineering-first decisions, checked twice before a single beam moves.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <span class="value-mark">§02</span>
+            <div>
+              <h3>Transparent Costing</h3>
+              <p>Line-item budgets you can read without a finance degree.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <span class="value-mark">§03</span>
+            <div>
+              <h3>On-Site Accountability</h3>
+              <p>A dedicated site lead on every project, reachable end to end.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-panel">
+        <div class="blueprint-card">
+          <div class="card-corner tl"></div>
+          <div class="card-corner tr"></div>
+          <div class="card-corner bl"></div>
+          <div class="card-corner br"></div>
+          <span class="card-label">SPEC // URBNEXA-CO</span>
+          <ul class="spec-list">
+            <li><span>Founded</span><strong>2026</strong></li>
+            <li><span>Licensed States</span><strong>14</strong></li>
+            <li><span>Active Crew</span><strong>320+</strong></li>
+            <li><span>Safety Record</span><strong>OSHA A-Rated</strong></li>
+            <li><span>Avg. Project Size</span><strong>4,800 m²</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="section-head">
+      <p class="eyebrow"><span class="eyebrow-dot"></span>N.03 — What We Do</p>
+      <h2 class="section-title">Built In-House, <span class="text-outline">Start to Close</span></h2>
+    </div>
+
+    <div class="services-grid">
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M6 40h36M9 40V20l15-12 15 12v20M19 40V26h10v14" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Commercial Construction</h3>
+        <p>Offices, retail, and mixed-use developments built to spec, on schedule, with full code compliance handled in-house.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M8 42V18l16-12 16 12v24M8 42h32M18 42V28h12v14M22 8v6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Residential Builds</h3>
+        <p>Custom homes and multi-unit residences, from site grading to the last coat of paint — designed around how people actually live.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M4 36h40M10 36V14h6v22M22 36V20h6v16M34 36V8h6v28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Infrastructure &amp; Civil</h3>
+        <p>Roads, bridges, and utility works delivered for municipal and private clients, built to outlast their maintenance cycle.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 4l4 8 9 1-6.5 6.5L32 28l-8-4-8 4 1.5-8.5L11 13l9-1z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 40h20M18 34h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Renovation &amp; Retrofit</h3>
+        <p>Structural upgrades and full interior overhauls for buildings that need new life without starting from a teardown.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M6 12h36M6 24h36M6 36h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="36" cy="36" r="6" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+        </div>
+        <h3>Project Management</h3>
+        <p>One point of contact across architects, engineers, and inspectors — so the schedule stays yours to read, not chase.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 44s16-10 16-24a16 16 0 0 0-32 0c0 14 16 24 16 24z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><circle cx="24" cy="20" r="5" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+        </div>
+        <h3>Site Planning &amp; Survey</h3>
+        <p>Land assessment, grading strategy, and permitting groundwork done before the first stake goes in.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="section-head">
+      <p class="eyebrow"><span class="eyebrow-dot"></span>N.04 — Get In Touch</p>
+      <h2 class="section-title">Let's Break <span class="text-outline">Ground</span></h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="contact-lead">Tell us about the site, the scope, and the timeline. A project lead will get back to you within one business day.</p>
+
+        <ul class="contact-details">
+          <li>
+            <span class="contact-label">Office</span>
+            <span>4th Floor, Crestline Tower, Industrial Road, Jodhpur, Rajasthan 342001</span>
+          </li>
+          <li>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+911234567890">+91 12345 67890</a>
+          </li>
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:projects@urbnexa.com">projects@urbnexa.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Hours</span>
+            <span>Mon – Sat, 09:00 – 18:00</span>
+          </li>
+        </ul>
+
+        <div class="contact-social">
+          <a href="#" aria-label="URBNEXA on LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="URBNEXA on Instagram">Instagram</a>
+          <a href="#" aria-label="URBNEXA on X">X</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Jordan Patel" required>
+            <span class="field-error" id="name-error"></span>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="jordan@email.com" required>
+            <span class="field-error" id="email-error"></span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 00000 00000">
+            <span class="field-error" id="phone-error"></span>
+          </div>
+          <div class="form-field">
+            <label for="project-type">Project type</label>
+            <select id="project-type" name="project-type">
+              <option value="commercial">Commercial</option>
+              <option value="residential">Residential</option>
+              <option value="infrastructure">Infrastructure &amp; Civil</option>
+              <option value="renovation">Renovation &amp; Retrofit</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Project details</label>
+          <textarea id="message" name="message" rows="4" placeholder="Location, approximate size, target start date…" required></textarea>
+          <span class="field-error" id="message-error"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-submit">
+          <span class="btn-submit-text">Send Inquiry</span>
+          <span class="btn-arrow">↗</span>
+        </button>
+
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark">⛏</span>
+      <span class="logo-text">URBNEXA</span>
+    </div>
+    <p class="footer-tag">Building tomorrow's ground, one site at a time.</p>
+    <p class="footer-copy">© <span id="year"></span> URBNEXA Construction Co. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
